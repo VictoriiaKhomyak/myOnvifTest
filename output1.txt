@@ -1,0 +1,301 @@
+[{
+    'Name': 'MainProfile',
+    'VideoSourceConfiguration': {
+        'Name': 'VideoSourceCfg0',
+        'UseCount': 2,
+        'SourceToken': 'VideoSourceToken_0',
+        'Bounds': {
+            'x': 0,
+            'y': 0,
+            'width': 1920,
+            'height': 1080
+        },
+        '_value_1': None,
+        'Extension': None,
+        'token': 'VideoSourceCfgToken_0',
+        '_attr_1': {
+    }
+    },
+    'AudioSourceConfiguration': {
+        'Name': 'AudioSourceCfg0',
+        'UseCount': 2,
+        'SourceToken': 'AudioSourceToken_0',
+        '_value_1': None,
+        'token': 'AudioSourceCfgToken_0',
+        '_attr_1': {
+    }
+    },
+    'VideoEncoderConfiguration': {
+        'Name': 'VideoEncoderCfg0',
+        'UseCount': 1,
+        'Encoding': 'H264',
+        'Resolution': {
+            'Width': 1920,
+            'Height': 1080
+        },
+        'Quality': 90.0,
+        'RateControl': {
+            'FrameRateLimit': 25,
+            'EncodingInterval': 0,
+            'BitrateLimit': 4000
+        },
+        'MPEG4': None,
+        'H264': {
+            'GovLength': 50,
+            'H264Profile': 'Extended'
+        },
+        'Multicast': {
+            'Address': {
+                'Type': 'IPv4',
+                'IPv4Address': '224.1.2.3',
+                'IPv6Address': None
+            },
+            'Port': 6688,
+            'TTL': 5,
+            'AutoStart': False,
+            '_value_1': None,
+            '_attr_1': None
+        },
+        'SessionTimeout': datetime.timedelta(seconds=720),
+        '_value_1': None,
+        'token': 'VideoEncoderCfgToken_0',
+        '_attr_1': {
+    }
+    },
+    'AudioEncoderConfiguration': {
+        'Name': 'AudioEncoderCfg0',
+        'UseCount': 2,
+        'Encoding': 'AAC',
+        'Bitrate': 0,
+        'SampleRate': 0,
+        'Multicast': {
+            'Address': {
+                'Type': 'IPv4',
+                'IPv4Address': '172.18.191.247',
+                'IPv6Address': None
+            },
+            'Port': 554,
+            'TTL': 5,
+            'AutoStart': False,
+            '_value_1': None,
+            '_attr_1': None
+        },
+        'SessionTimeout': datetime.timedelta(seconds=720),
+        '_value_1': None,
+        'token': 'AudioEncoderCfgToken_0',
+        '_attr_1': {
+    }
+    },
+    'VideoAnalyticsConfiguration': None,
+    'PTZConfiguration': {
+        'Name': 'PTZConfigurations_0',
+        'UseCount': 2,
+        'NodeToken': 'ptznode_token_0',
+        'DefaultAbsolutePantTiltPositionSpace': 'http://www.onvif.org/ver10/tptz/PanTiltSpaces/DigitalPositionSpace',
+        'DefaultAbsoluteZoomPositionSpace': 'http://www.onvif.org/ver10/tptz/ZoomSpaces/PositionGenericSpace',
+        'DefaultRelativePanTiltTranslationSpace': 'http://www.onvif.org/ver10/tptz/PanTiltSpaces/DigitalTranslationSpace',
+        'DefaultRelativeZoomTranslationSpace': 'http://www.onvif.org/ver10/tptz/ZoomSpaces/TranslationGenericSpace',
+        'DefaultContinuousPanTiltVelocitySpace': 'http://www.onvif.org/ver10/tptz/PanTiltSpaces/VelocityGenericSpace',
+        'DefaultContinuousZoomVelocitySpace': 'http://www.onvif.org/ver10/tptz/ZoomSpaces/VelocityGenericSpace',
+        'DefaultPTZSpeed': {
+            'PanTilt': {
+                'x': 0.5,
+                'y': 0.5,
+                'space': 'http://www.onvif.org/ver10/tptz/PanTiltSpaces/GenericSpeedSpace'
+            },
+            'Zoom': {
+                'x': 0.5,
+                'space': 'http://www.onvif.org/ver10/tptz/ZoomSpaces/ZoomGenericSpeedSpace'
+            }
+        },
+        'DefaultPTZTimeout': datetime.timedelta(seconds=60),
+        'PanTiltLimits': {
+            'Range': {
+                'URI': 'http://www.onvif.org/ver20/ptz/wsdl',
+                'XRange': {
+                    'Min': -1.0,
+                    'Max': 1.0
+                },
+                'YRange': {
+                    'Min': -1.0,
+                    'Max': 3.0
+                }
+            }
+        },
+        'ZoomLimits': {
+            'Range': {
+                'URI': 'http://www.onvif.org/ver20/ptz/wsdl',
+                'XRange': {
+                    'Min': 0.0,
+                    'Max': 1.0
+                }
+            }
+        },
+        'Extension': {
+            '_value_1': [
+                <Element {http://www.onvif.org/ver10/schema}PTControlDirection at 0x1ca276840c0>
+            ],
+            'PTControlDirection': None,
+            'Extension': None
+        },
+        'token': 'PTZCfgToken_0',
+        '_attr_1': {
+    }
+    },
+    'MetadataConfiguration': None,
+    'Extension': None,
+    'token': 'MainProfileToken',
+    'fixed': True,
+    '_attr_1': {
+}
+}, {
+    'Name': 'SubProfile',
+    'VideoSourceConfiguration': {
+        'Name': 'VideoSourceCfg0',
+        'UseCount': 2,
+        'SourceToken': 'VideoSourceToken_0',
+        'Bounds': {
+            'x': 0,
+            'y': 0,
+            'width': 1920,
+            'height': 1080
+        },
+        '_value_1': None,
+        'Extension': None,
+        'token': 'VideoSourceCfgToken_0',
+        '_attr_1': {
+    }
+    },
+    'AudioSourceConfiguration': {
+        'Name': 'AudioSourceCfg0',
+        'UseCount': 2,
+        'SourceToken': 'AudioSourceToken_0',
+        '_value_1': None,
+        'token': 'AudioSourceCfgToken_0',
+        '_attr_1': {
+    }
+    },
+    'VideoEncoderConfiguration': {
+        'Name': 'VideoEncoderCfg1',
+        'UseCount': 1,
+        'Encoding': 'H264',
+        'Resolution': {
+            'Width': 720,
+            'Height': 480
+        },
+        'Quality': 90.0,
+        'RateControl': {
+            'FrameRateLimit': 50,
+            'EncodingInterval': 0,
+            'BitrateLimit': 1024
+        },
+        'MPEG4': None,
+        'H264': {
+            'GovLength': 50,
+            'H264Profile': 'Main'
+        },
+        'Multicast': {
+            'Address': {
+                'Type': 'IPv4',
+                'IPv4Address': '224.1.2.3',
+                'IPv6Address': None
+            },
+            'Port': 6688,
+            'TTL': 5,
+            'AutoStart': False,
+            '_value_1': None,
+            '_attr_1': None
+        },
+        'SessionTimeout': datetime.timedelta(seconds=720),
+        '_value_1': None,
+        'token': 'VideoEncoderCfgToken_1',
+        '_attr_1': {
+    }
+    },
+    'AudioEncoderConfiguration': {
+        'Name': 'AudioEncoderCfg0',
+        'UseCount': 2,
+        'Encoding': 'AAC',
+        'Bitrate': 0,
+        'SampleRate': 0,
+        'Multicast': {
+            'Address': {
+                'Type': 'IPv4',
+                'IPv4Address': '172.18.191.247',
+                'IPv6Address': None
+            },
+            'Port': 554,
+            'TTL': 5,
+            'AutoStart': False,
+            '_value_1': None,
+            '_attr_1': None
+        },
+        'SessionTimeout': datetime.timedelta(seconds=720),
+        '_value_1': None,
+        'token': 'AudioEncoderCfgToken_0',
+        '_attr_1': {
+    }
+    },
+    'VideoAnalyticsConfiguration': None,
+    'PTZConfiguration': {
+        'Name': None,
+        'UseCount': 0,
+        'NodeToken': None,
+        'DefaultAbsolutePantTiltPositionSpace': None,
+        'DefaultAbsoluteZoomPositionSpace': None,
+        'DefaultRelativePanTiltTranslationSpace': None,
+        'DefaultRelativeZoomTranslationSpace': None,
+        'DefaultContinuousPanTiltVelocitySpace': None,
+        'DefaultContinuousZoomVelocitySpace': None,
+        'DefaultPTZSpeed': {
+            'PanTilt': {
+                'x': 0.0,
+                'y': 0.0,
+                'space': ''
+            },
+            'Zoom': {
+                'x': 0.0,
+                'space': ''
+            }
+        },
+        'DefaultPTZTimeout': datetime.timedelta(seconds=60),
+        'PanTiltLimits': {
+            'Range': {
+                'URI': None,
+                'XRange': {
+                    'Min': 0.0,
+                    'Max': 0.0
+                },
+                'YRange': {
+                    'Min': 0.0,
+                    'Max': 0.0
+                }
+            }
+        },
+        'ZoomLimits': {
+            'Range': {
+                'URI': None,
+                'XRange': {
+                    'Min': 0.0,
+                    'Max': 0.0
+                }
+            }
+        },
+        'Extension': {
+            '_value_1': [
+                <Element {http://www.onvif.org/ver10/schema}PTControlDirection at 0x1ca27684d80>
+            ],
+            'PTControlDirection': None,
+            'Extension': None
+        },
+        'token': '',
+        '_attr_1': {
+    }
+    },
+    'MetadataConfiguration': None,
+    'Extension': None,
+    'token': 'SubProfileToken',
+    'fixed': True,
+    '_attr_1': {
+}
+}]

@@ -1,0 +1,188 @@
+[{
+    'Namespace': 'http://www.onvif.org/ver10/device/wsdl',
+    'XAddr': 'http://172.18.212.18/onvif/device_service',
+    'Capabilities': {
+        '_value_1': {
+            'Network': {
+                'IPFilter': True,
+                'ZeroConfiguration': True,
+                'IPVersion6': True,
+                'DynDNS': True,
+                'Dot11Configuration': False,
+                'Dot1XConfigurations': 0,
+                'HostnameFromDHCP': True,
+                'NTP': 1,
+                'DHCPv6': True,
+                '_attr_1': {
+            }
+            },
+            'Security': {
+                'TLS1.0': False,
+                'TLS1.1': True,
+                'TLS1.2': True,
+                'OnboardKeyGeneration': False,
+                'AccessPolicyConfig': False,
+                'DefaultAccessPolicy': True,
+                'Dot1X': False,
+                'RemoteUserHandling': False,
+                'X.509Token': False,
+                'SAMLToken': False,
+                'KerberosToken': False,
+                'UsernameToken': True,
+                'HttpDigest': True,
+                'RELToken': False,
+                'SupportedEAPMethods': [
+                    0
+                ],
+                'MaxUsers': 32,
+                '_attr_1': {
+                    'MaxUserNameLength': '32',
+                    'MaxPasswordLength': '16'
+                }
+            },
+            'System': {
+                'DiscoveryResolve': False,
+                'DiscoveryBye': True,
+                'RemoteDiscovery': False,
+                'SystemBackup': False,
+                'SystemLogging': True,
+                'FirmwareUpgrade': True,
+                'HttpFirmwareUpgrade': True,
+                'HttpSystemBackup': False,
+                'HttpSystemLogging': False,
+                'HttpSupportInformation': False,
+                '_attr_1': {
+                    'StorageConfiguration': 'true',
+                    'MaxStorageConfigurations': '8'
+                }
+            },
+            'Misc': None
+        }
+    },
+    'Version': {
+        'Major': 17,
+        'Minor': 12
+    },
+    '_value_1': None,
+    '_attr_1': None
+}, {
+    'Namespace': 'http://www.onvif.org/ver10/media/wsdl',
+    'XAddr': 'http://172.18.212.18/onvif/Media',
+    'Capabilities': {
+        '_value_1': '<Element {http://www.onvif.org/ver10/media/wsdl}Capabilities at 0x26351885e40>'
+    },
+    'Version': {
+        'Major': 2,
+        'Minor': 60
+    },
+    '_value_1': None,
+    '_attr_1': None
+}, {
+    'Namespace': 'http://www.onvif.org/ver10/events/wsdl',
+    'XAddr': 'http://172.18.212.18/onvif/Events',
+    'Capabilities': {
+        '_value_1': '<Element {http://www.onvif.org/ver10/events/wsdl}Capabilities at 0x26351885e80>'
+    },
+    'Version': {
+        'Major': 2,
+        'Minor': 60
+    },
+    '_value_1': None,
+    '_attr_1': None
+}, {
+    'Namespace': 'http://www.onvif.org/ver20/ptz/wsdl',
+    'XAddr': 'http://172.18.212.18/onvif/PTZ',
+    'Capabilities': {
+        '_value_1': '<Element {http://www.onvif.org/ver20/ptz/wsdl}Capabilities at 0x26351884140>'
+    },
+    'Version': {
+        'Major': 16,
+        'Minor': 12
+    },
+    '_value_1': None,
+    '_attr_1': None
+}, {
+    'Namespace': 'http://www.onvif.org/ver20/imaging/wsdl',
+    'XAddr': 'http://172.18.212.18/onvif/Imaging',
+    'Capabilities': {
+        '_value_1': '<Element {http://www.onvif.org/ver20/imaging/wsdl}Capabilities at 0x26351884340>'
+    },
+    'Version': {
+        'Major': 16,
+        'Minor': 6
+    },
+    '_value_1': None,
+    '_attr_1': None
+}, {
+    'Namespace': 'http://www.onvif.org/ver10/deviceIO/wsdl',
+    'XAddr': 'http://172.18.212.18/onvif/DeviceIO',
+    'Capabilities': {
+        '_value_1': '<Element {http://www.onvif.org/ver10/deviceIO/wsdl}Capabilities at 0x26351887340>'
+    },
+    'Version': {
+        'Major': 16,
+        'Minor': 12
+    },
+    '_value_1': None,
+    '_attr_1': None
+}, {
+    'Namespace': 'http://www.onvif.org/ver20/analytics/wsdl',
+    'XAddr': 'http://172.18.212.18/onvif/Analytics',
+    'Capabilities': {
+        '_value_1': '<Element {http://www.onvif.org/ver20/analytics/wsdl}Capabilities at 0x26351887480>'
+    },
+    'Version': {
+        'Major': 16,
+        'Minor': 12
+    },
+    '_value_1': None,
+    '_attr_1': None
+}, {
+    'Namespace': 'http://www.onvif.org/ver10/recording/wsdl',
+    'XAddr': 'http://172.18.212.18/onvif/Recording',
+    'Capabilities': {
+        '_value_1': '<Element {http://www.onvif.org/ver10/recording/wsdl}Capabilities at 0x26351884700>'
+    },
+    'Version': {
+        'Major': 16,
+        'Minor': 12
+    },
+    '_value_1': None,
+    '_attr_1': None
+}, {
+    'Namespace': 'http://www.onvif.org/ver10/search/wsdl',
+    'XAddr': 'http://172.18.212.18/onvif/SearchRecording',
+    'Capabilities': {
+        '_value_1': '<Element {http://www.onvif.org/ver10/search/wsdl}Capabilities at 0x263518841c0>'
+    },
+    'Version': {
+        'Major': 2,
+        'Minor': 42
+    },
+    '_value_1': None,
+    '_attr_1': None
+}, {
+    'Namespace': 'http://www.onvif.org/ver10/replay/wsdl',
+    'XAddr': 'http://172.18.212.18/onvif/Replay',
+    'Capabilities': {
+        '_value_1': '<Element {http://www.onvif.org/ver10/replay/wsdl}Capabilities at 0x263518840c0>'
+    },
+    'Version': {
+        'Major': 2,
+        'Minor': 21
+    },
+    '_value_1': None,
+    '_attr_1': None
+}, {
+    'Namespace': 'http://www.onvif.org/ver20/media/wsdl',
+    'XAddr': 'http://172.18.212.18/onvif/Media2',
+    'Capabilities': {
+        '_value_1': '<Element {http://www.onvif.org/ver20/media/wsdl}Capabilities at 0x26351887540>'
+    },
+    'Version': {
+        'Major': 16,
+        'Minor': 12
+    },
+    '_value_1': None,
+    '_attr_1': None
+}]
